@@ -52,6 +52,14 @@ typedef struct
  */
 static Entry ENTRIES[] = {
     /* name                    fn          folder  expanded  depth */
+    {"trees", NULL, 1, 1, 0},
+    {"Binary Search Tree", binary_search_tree_demo, 0, 0, 1},
+    {"AVL Tree", avl_demo, 0, 0, 1},
+    {"Threaded Binary Tree", TBT_demo, 0, 0, 1},
+    {"Trie", trie_demo, 0, 0, 1},
+    {"B-Tree", btree_demo, 0, 0, 1},
+    {"B+ Tree", bplus_tree_demo, 0, 0, 1},
+    {"Segment Tree", segment_tree_demo, 0, 0, 1}, // <-- Add this line
     {"Animation speed (s)", NULL, 1, 1, 0},
     {"Set Animation Speed", settings_menu_demo, 0, 0, 1},
 
